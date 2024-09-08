@@ -13,7 +13,7 @@
 <body>
   <header>
     <!-- menu -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom shadow-sm">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom shadow-sm py-4">
       <div class="container">
         <a class="navbar-brand" href="#">Foodieland</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -50,9 +50,9 @@
 
     <!-- banner -->
     <section class="container">
-      <div class="row mt-lg-5 mt-3 border rounded-5" style="background-color: #E7FAFE;">
+      <div class="row mt-lg-4 mt-3 border rounded-5" style="background-color: #E7FAFE;">
         <!-- banner text div -->
-        <div class="col-md-6 order-1 order-md-0 p-3 p-lg-5">
+        <div class="col-md-6 order-1 order-md-0 p-3 p-lg-5" style="max-height: 550px;">
 
           <button class="d-flex gap-2 border btn btn-light rounded-5 py-2 px-3 mt-2 mt-md-3 mt-lg-4">
             <img src="./images/banner/notepad.png" alt="icon">
@@ -61,7 +61,8 @@
 
           <div class="d-flex gap-2 gap-lg-3 flex-column mt-3 mt-md-1 mt-lg-3">
             <h1 class="w-75 fw-bold banner-text">Spicy delicious chicken wings</h1>
-            <p class="d-md-none d-block d-lg-block">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            <p class="d-md-none d-block d-lg-block">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et
               dolore magna aliqut enim ad minim</p>
 
             <div class="d-flex flex-column flex-sm-row gap-2">
@@ -89,7 +90,8 @@
                 </div>
               </div>
 
-              <button class="d-flex align-items-center justify-content-center py-lg-3 px-lg-4 gap-1 rounded-4 btn btn-dark">
+              <button
+                class="d-flex align-items-center justify-content-center py-lg-3 px-lg-4 gap-1 rounded-4 btn btn-dark">
                 <span>View Recipes</span>
                 <i class="fa-solid fa-circle-play"></i>
               </button>
@@ -98,13 +100,57 @@
           </div>
         </div>
         <!-- banner image div -->
-        <div class="col-md-6 order-0 order-md-1 p-0 m-0">
-          <img style="width: 100%; max-height: 100vh; height: 100%;" src="./images/banner/banner.jpg" alt="banner">
+        <div class="col-md-6 order-0 order-md-1 p-0 m-0" style="max-height: 550px;">
+          <img class="d-block ms-auto" style="width: 100%; max-width: 100vh; max-height: 100vh; height: 100%;"
+            src="./images/banner/banner.jpg" alt="banner">
         </div>
       </div>
     </section>
 
   </header>
+
+  <main>
+    <!-- gap between -->
+     <div class="my-5"></div>
+
+    <!-- categories -->
+    <section class="container">
+      <div class="d-flex flex-column flex-md-row gap-3 justify-content-between">
+        <h1>Categories</h1>
+        <button class="btn btn-light border fw-semibold rounded-4">View All Categories</button>
+      </div>
+
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="categories-box d-flex flex-column flex-md-row gap-3 mx-auto mt-3 mb-3 flex-wrap">
+        
+          <div class="box rounded-bottom-4 px-3 pb-5 pt-1 mt-3 mt-lg-0" style="background: linear-gradient(to top, #F3F5F0, #ffffff00);">
+            <img class="d-block mx-auto" src="./images/category/1.png" alt="category-box-img">
+          </div>
+          
+          <div class="box rounded-bottom-4 px-3 pb-5 pt-1 mt-3 mt-lg-0" style="background: linear-gradient(to top, #F2FAEE, #ffffff00);">
+            <img class="d-block mx-auto" src="./images/category/2.png" alt="category-box-img">
+          </div>
+          
+          <div class="box rounded-bottom-4 px-3 pb-5 pt-1 mt-3 mt-lg-0" style="background: linear-gradient(to top, #FBEDEC, #ffffff00);">
+            <img class="d-block mx-auto" src="./images/category/3.png" alt="category-box-img">
+          </div>
+          
+          <div class="box rounded-bottom-4 px-3 pb-5 pt-1 mt-3 mt-lg-0" style="background: linear-gradient(to top, #FEF7EB, #ffffff00);">
+            <img class="d-block mx-auto" src="./images/category/4.png" alt="category-box-img">
+          </div>
+          
+          <div class="box rounded-bottom-4 px-3 pb-5 pt-1 mt-3 mt-lg-0" style="background: linear-gradient(to top, #F5F5F5, #ffffff00);">
+            <img class="d-block mx-auto" src="./images/category/5.png" alt="category-box-img">
+          </div>
+          
+          <div class="box rounded-bottom-4 px-3 pb-5 pt-1 mt-3 mt-lg-0" style="background: linear-gradient(to top, #F4F4F4, #ffffff00);">
+            <img class="d-block mx-auto" src="./images/category/6.png" alt="category-box-img">
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
