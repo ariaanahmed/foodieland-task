@@ -36,3 +36,10 @@
 .section-gap {
     margin: 4rem 0;
 }
+
+.inbox-section {
+    background-image: url('./images/footer-banner/footer-banner.png');
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
